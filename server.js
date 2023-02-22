@@ -21,7 +21,7 @@ connectToDb()
 
 //routing
 
-app.get('/notes', notesController.getNoteById)
+app.get('/notes', notesController.getNotes)
 app.get('/notes/:id', notesController.getNoteById)
 app.post('/notes', notesController.postNote)
 app.put('/notes/:id', notesController.updateNote)
